@@ -32,7 +32,7 @@ const AboutSection = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <p className="text-muted-foreground leading-relaxed mb-4">
-              I'm a recent Computer Science final year student with a strong foundation in web development, data structures, and algorithms.
+              I'm a recent Computer Science graduate student with a strong foundation in web development, data structures, and algorithms.
             </p>
             <p className="text-muted-foreground leading-relaxed">
              I am a Full Stack Web Developer with hands-on experience in building projects using MongoDB, Express, React, and Node.js. I focus on writing clean, maintainable code and developing responsive web applications. I enjoy problem-solving and continuously improving my development skills by working on real-world projects.
