@@ -1,14 +1,15 @@
 import { motion } from "framer-motion";
 import { Mail, Phone, MapPin, Send } from "lucide-react";
 import { useState } from "react";
-
+import { toast } from "react-toastify";
 const ContactSection = () => {
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Handle form submission
-    alert("Thank you for your message! I'll get back to you soon.");
+    // alert("Thank you for your message! I'll get back to you soon.");
+    toast.success("Thank you for your message! I'll get back to you soon.");
     setFormData({ name: "", email: "", message: "" });
   };
 
@@ -84,6 +85,7 @@ const ContactSection = () => {
               className="w-full bg-secondary border border-border rounded-lg px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-primary transition-colors resize-none"
             />
             <button
+            
               type="submit"
               className="bg-gradient-primary text-primary-foreground font-heading font-semibold px-8 py-3 rounded-lg glow-primary hover:opacity-90 transition-opacity flex items-center gap-2"
             >
