@@ -3,14 +3,17 @@ import { motion } from "framer-motion";
 const skills = [
   { name: "HTML & CSS", level: 90 },
   { name: "JavaScript", level: 80 },
+   { name: "TailwindCSS", level: 80 },
   { name: "React.js", level: 75 },
+   { name: "Node.js", level: 80 },
   { name: "Express.js", level: 70 },
   { name: "Git & GitHub", level: 75 },
   { name: "MongoDB", level: 80 },
   { name: "MYSQL", level: 80 },
+   { name: "Docker", level: 60 },
 ];
 
-const tools = ["VS Code", "Vercel", "Tailwind CSS"];
+const tools = ["VS Code", "Vercel", "postman"];
 
 const SkillsSection = () => {
   return (
